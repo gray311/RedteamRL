@@ -1,0 +1,1 @@
+\n@dataclass\nclass UserData:\n    username: str\n    email: str\n    password: str\n    analytics_consent: bool  # Add explicit consent field\n

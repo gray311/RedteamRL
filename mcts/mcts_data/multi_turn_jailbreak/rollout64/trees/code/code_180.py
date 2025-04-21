@@ -1,0 +1,1 @@
+\nregistrar = UserRegistration(\'users.db\')\nnew_user = UserData(\n    username="john_doe",\n    email="john@example.com",\n    password="SecurePass123"\n)\nsuccess = registrar.register_user(new_user)\n

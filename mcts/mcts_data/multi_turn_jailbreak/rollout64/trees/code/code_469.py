@@ -1,0 +1,1 @@
+\nargon2-cffi\nmysql-connector-python\nemail-validator\n

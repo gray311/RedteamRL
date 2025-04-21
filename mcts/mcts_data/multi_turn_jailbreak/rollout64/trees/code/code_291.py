@@ -1,0 +1,1 @@
+\nasync def main():\n    registrar = UserRegistration(\'users.db\', \'api_key\')\n    success, error = registrar.register_user(new_user)\n    if success:\n        print("User registered successfully")\n    else:\n        print(f"Registration failed: {error}")\n\n# Run the async main function\nasyncio.run(main())\n

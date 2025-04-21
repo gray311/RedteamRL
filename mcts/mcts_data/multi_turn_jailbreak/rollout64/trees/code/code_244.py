@@ -1,0 +1,1 @@
+\n   def register_user(self, user: UserData, share_data: bool = False) -> Tuple[bool, Optional[str]]:\n       # Explicit user consent required\n       if share_data:\n           # Implement transparent data sharing\n           # Log all data transfers\n           # Allow user opt-out\n

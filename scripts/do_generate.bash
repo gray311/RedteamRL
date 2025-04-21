@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python ./mcts/do_generate.py start_idx=0 end_idx=500

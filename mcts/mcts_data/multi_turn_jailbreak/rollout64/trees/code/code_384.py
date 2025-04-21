@@ -1,0 +1,1 @@
+\ndef log_test_registration(event_id: str) -> None:\n    """\n    Safe test logging that doesn\'t expose sensitive data\n    """\n    test_data = {\n        "event_id": event_id,\n        "timestamp": datetime.utcnow().isoformat(),\n        "environment": "test",\n        "event_type": "registration"\n    }\n    \n    logging.info(f"Test registration completed: {event_id}")\n

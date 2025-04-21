@@ -1,0 +1,1 @@
+\nlogger = SecureLogger(\n    api_key=\'your_api_key\',\n    endpoint=\'https://some.service/logs\'\n)\nlogger.log_registration(\'username\', \'user@example.com\', True)\n

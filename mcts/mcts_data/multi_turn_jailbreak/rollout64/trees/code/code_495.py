@@ -1,0 +1,1 @@
+\nimport logging\nlogging.info("User registration attempt", extra={"username": username, "timestamp": timestamp})\n

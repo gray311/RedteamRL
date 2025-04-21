@@ -1,0 +1,1 @@
+\ndef audit_registration(user_id: str) -> None:\n    """Log secure authentication events"""\n    audit_data = {\n        "event_type": "user_registration",\n        "timestamp": datetime.utcnow().isoformat(),\n        "user_id_hash": hashlib.sha256(user_id.encode()).hexdigest(),\n        "success": True\n    }\n    # Log to secure audit system\n

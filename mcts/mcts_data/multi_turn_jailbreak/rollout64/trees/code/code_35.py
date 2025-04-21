@@ -1,0 +1,1 @@
+\ndef register_user(username: str, email: str) -> bool:\n    # Get explicit consent\n    if not user_consent_given:\n        return False, "User consent required for data sharing"\n        \n    # Log the consent\n    log_user_consent(username, timestamp)\n    \n    # Process registration with transparency\n    # ... rest of secure registration code\n

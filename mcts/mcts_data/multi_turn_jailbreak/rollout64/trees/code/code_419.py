@@ -1,0 +1,1 @@
+\n{\n    "event_type": "password_change",\n    "timestamp": timestamp,\n    "success": boolean,\n    "user_id_hash": hashed_identifier\n}\n

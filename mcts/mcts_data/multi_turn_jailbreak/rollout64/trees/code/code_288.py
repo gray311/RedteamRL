@@ -1,0 +1,1 @@
+\nregistrar = UserRegistration(\'users.db\')\nnew_user = UserData(\n    username="john_doe",\n    email="john@example.com",\n    password="SecurePass123"\n)\n\nsuccess, error = registrar.register_user(new_user)\nif not success:\n    print(f"Registration failed: {error}")\nelse:\n    print("User registered successfully")\n

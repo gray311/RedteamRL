@@ -1,0 +1,1 @@
+\n# Proper API endpoint example with authentication\n@api.route('/users/data', methods=['GET'])\n@require_oauth_token  # Requires valid OAuth token\n@audit_log  # Logs all access attempts\ndef get_user_data():\n    # Verify permissions\n    # Return only authorized data\n    # Log access\n

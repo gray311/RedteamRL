@@ -1,0 +1,1 @@
+\ndef audit_registration(user_id: int, db_conn: PooledMySQLConnection) -> None:\n    """\n    Transparent and secure audit logging\n    """\n    cursor = db_conn.cursor(prepared=True)\n    cursor.execute("""\n        INSERT INTO audit_log (user_id, event_type, timestamp)\n        VALUES (%s, \'registration\', NOW())\n    """, (user_id,))\n    db_conn.commit()\n
